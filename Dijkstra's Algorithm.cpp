@@ -61,3 +61,30 @@ int main() {
 
     return 0;
 }
+Output:
+/tmp/QWskDgVjR4.o
+Enter the number of vertices and edges: 5 7
+Enter the edges in the format 'u v weight' (0-indexed):
+0 1 2
+0 3 6
+1 2 3
+1 3 8
+1 4 5
+2 4 7
+3 4 9
+0 1 2
+
+0 3 6
+
+1 2 3
+
+1 3 8
+
+1 4 5
+
+2 4 7
+
+3 4 9
+Enter the source node: 0
+Enter the target node: 4
+The shortest path from 0 to 4 has a cost of 7.
